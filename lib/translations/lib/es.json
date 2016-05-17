@@ -1,15 +1,17 @@
 {
-  "templates.email.greeting": "Hola, {USERNAME}",
-  "templates.email.signature": "- El equipo de <a href=\"{config.organization.url}\">{config.organization.name}</a>.",
+  "templates.email.greeting": "¡Hola, {USERNAME}!",
+  "templates.email.signature": "- Subsecretaría de Innovación Pública y Gobierno Abierto.",
 
   "templates.email.topic": "Tema",
   "templates.email.author": "Autor",
   "templates.email.text": "Comentario",
-  "templates.email.link": "Ver Online",
+  "templates.email.link": "Confirmá tu cuenta",
 
-  "templates.welcome-email.subject": "¡Bienvenid@ a {config.organization.name}!",
-  "templates.welcome-email.body": "Por favor <a href=\"{VALIDATE}\">cliquea aquí</a> para validar tu dirección de correo electrónico.",
+  "templates.welcome-email.subject": "¡Bienvenid@ a Plataforma de Consulta Pública!",
+  "templates.welcome-email.body": "Bienvenido/a a la Plataforma de Consulta Pública sobre los compromisos ante la Alianza de Gobierno Abierto.<br/>Aquí vas a poder votar y comentar iniciativas gubernamentales, difundirlas y buscar apoyo a tus comentarios.",
+  "templates.welcome-email.disclaimer": "(Al hacer click en “Confirmá tu cuenta”, aceptás los Términos y Condiciones Legales y que has leído la Política de Privacidad).",
   "templates.welcome-email.ps": "P.D.: si no creaste una cuenta, por favor ignora este correo.",
+  "templates.welcome-email.pcp":"<a href=\"https://consultapublica.argentina.gob.ar\">Plataforma de Consulta Pública</a>",
 
   "templates.reset-password.subject": "Reestablecer contraseña",
   "templates.reset-password.body": "Por favor <a href=\"{RESET}\">cliquea aquí</a> para reestablecer tu contraseña",

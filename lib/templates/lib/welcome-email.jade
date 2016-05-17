@@ -6,14 +6,20 @@ block content
     tr
       td.content-block
         p=t('templates.email.greeting',{USERNAME:USERNAME})
-        p!=t('templates.welcome-email.body',{VALIDATE:VALIDATE,config:config})
+        p!=t('templates.welcome-email.body')
         p.copy-block #{VALIDATE}
     tr
       td.content-block
-        a.btn-primary(href=VALIDATE)=t('templates.welcome-email.link')
+        a.btn-primary(href=VALIDATE)=t('templates.email.link')
     tr
       td.content-block
-        p!=t('templates.email.signature',{config:config})
+        p!=t('templates.welcome-email.disclaimer')
+    tr
+      td.content-block
+        p!=t('templates.email.signature')
+    tr
+      td.content-block
+        p!=t('templates.welcome-email.pcp')
     tr
       td.ps-block
         p!=t('templates.welcome-email.ps',{SIGNIN:SIGNIN,config:config})
