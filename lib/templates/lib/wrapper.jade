@@ -1,0 +1,33 @@
+doctype transitional
+html(xmlns='http://www.w3.org/1999/xhtml')
+  head
+    meta(name='viewport', content='width=device-width')
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title #{title}
+    
+  body(itemscope='', itemtype='http://schema.org/EmailMessage')
+    table.body-wrap
+      tr
+        td
+        td.container(width='600')
+          .content
+            table.main(width='100%', cellpadding='0', cellspacing='0')
+              tr
+                td.brand(style='background-color:#{config.style.backgroundColor};color:#{config.style.fontColor}')
+                  table(width='100%', cellpadding='0', cellspacing='0')
+                    tr
+                      td.brand-image(width='32')
+                        img(src='#{config.organization.logo}',width='28',height='28')
+                      td.brand-text 
+                        != config.organization.name.replace(/[.]/g,'<span>&#46;</span>')
+              tr
+                td.content-wrap
+                
+                  block content
+                  
+            .footer
+              table(width='100%')
+                tr
+                  td.aligncenter.content-block
+                    a(href=config.organization.url) #{config.organization.name}
+        td

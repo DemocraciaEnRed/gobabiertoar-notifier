@@ -1,13 +1,13 @@
 {
-  "templates.email.greeting": "Hola, USER_NAME.",
+  "templates.email.greeting": "Hola, {USERNAME}.",
   "templates.email.signature": "L'equip de DemocracyOS.",
 
   "templates.welcome-email.subject": "Benvinguts/des a DemocracyOS!",
-  "templates.welcome-email.body": "Si us plau <a href=\"VALIDATE_MAIL_URL\">cliqui aquí</a> per validar la teva adreça de correu electrònic.",
+  "templates.welcome-email.body": "Si us plau <a href=\"{VALIDATE}\">cliqui aquí</a> per validar la teva adreça de correu electrònic.",
   "templates.welcome-email.ps": "P.D.: Si no has creat un compte a DemocracyOS, si us plau ignora aquest correu.",
 
   "templates.reset-password.subject": "Generar una nova contrasenya",
-  "templates.reset-password.body": "Si us plau, <a href=\"RESET_PASSWORD_URL\">cliqui aquí</a> per generar la teva contrasenya",
+  "templates.reset-password.body": "Si us plau, <a href=\"{RESET}\">cliqui aquí</a> per generar la teva contrasenya",
   "templates.reset-password.ps": "P.D.: Si no has generat la teva contrasenya, si us plau ignora aquest correu",
 
   "templates.comment-reply.subject": "Algú va respondre al seu argument",

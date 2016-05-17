@@ -1,13 +1,13 @@
 {
-  "templates.email.greeting": "Ciao, USER_NAME,",
+  "templates.email.greeting": "Ciao, {USERNAME},",
   "templates.email.signature": "La squadra di DemocracyOS.",
 
   "templates.welcome-email.subject": "Benvenuto a DemocracyOS!",
-  "templates.welcome-email.body": "Per favore <a href=\"VALIDATE_MAIL_URL\">clicca qui</a> per convalidare l'email.",
+  "templates.welcome-email.body": "Per favore <a href=\"{VALIDATE}\">clicca qui</a> per convalidare l'email.",
   "templates.welcome-email.ps": "P.S.: se non hai firmato in Democracyos preghiamo di ignorare questa email.",
 
   "templates.reset-password.subject": "Reimpostare la password",
-  "templates.reset-password.body": "Per favore <a href=\"RESET_PASSWORD_URL\">clicca qui</a> per reimpostare la password",
+  "templates.reset-password.body": "Per favore <a href=\"{RESET}\">clicca qui</a> per reimpostare la password",
   "templates.reset-password.ps": "P.S.: se non hai richiesto di reimpostare la password, ignorare questa email",
 
   "templates.comment-reply.subject": "Qualcuno ha risposto al tuo argomento",

@@ -1,13 +1,13 @@
 {
-  "templates.email.greeting": "Hallo, USER_NAME,",
+  "templates.email.greeting": "Hallo, {USERNAME},",
   "templates.email.signature": "Das DemocracyOS-Team.",
 
   "templates.welcome-email.subject": "Willkommen bei DemocracyOS!",
-  "templates.welcome-email.body": "Bitte <a href=\"VALIDATE_MAIL_URL\">hier klicken</a>, um deine E-Mail-Adresse zu bestätigen.",
+  "templates.welcome-email.body": "Bitte <a href=\"{VALIDATE}\">hier klicken</a>, um deine E-Mail-Adresse zu bestätigen.",
   "templates.welcome-email.ps": "Bitte diese E-Mail ignorieren, falls du dich nicht bei DemocracyOS angemeldet hast.",
 
   "templates.reset-password.subject": "Zurücksetzen des Passworts wurde angefordert",
-  "templates.reset-password.body": "Bitte <a href=\"RESET_PASSWORD_URL\">hier klicken</a>, um das Passwort zurückzusetzen.",
+  "templates.reset-password.body": "Bitte <a href=\"{RESET}\">hier klicken</a>, um das Passwort zurückzusetzen.",
   "templates.reset-password.ps": "Bitte diese E-Mail ignorieren, falls kein Zurücksetzen des Passwortes angefordert wurde.",
 
   "templates.comment-reply.subject": "Jemand, um Ihr Argument geantwortet",

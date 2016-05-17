@@ -6,10 +6,19 @@ block content
     tr
       td.content-block
         p=t('templates.email.greeting',{USERNAME:USERNAME})
-        p=t('templates.comment-reply.body')
+        p=t('templates.comment-published.body')
+    tr
+      td.content-block
+        h4=t('templates.email.topic')
+        p #{TOPIC}
+        h4=t('templates.email.author')
+        p #{AUTHOR}
+        h4=t('templates.email.text')
+        .comment-text!=markdown(COMMENT)
     tr
       td.content-block
         a.btn-primary(href=URL)=t('templates.email.link')
     tr
       td.content-block
         p!=t('templates.email.signature',{config:config})
+    

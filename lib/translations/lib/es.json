@@ -1,13 +1,18 @@
 {
-  "templates.email.greeting": "Hola, USER_NAME",
-  "templates.email.signature": "El equipo de DemocracyOS.",
+  "templates.email.greeting": "Hola, {USERNAME}",
+  "templates.email.signature": "- El equipo de <a href=\"{config.organization.url}\">{config.organization.name}</a>.",
 
-  "templates.welcome-email.subject": "¡Bienvenid@ a DemocracyOS!",
-  "templates.welcome-email.body": "Por favor <a href=\"VALIDATE_MAIL_URL\">cliquea aquí</a> para validar tu dirección de correo electrónico.",
+  "templates.email.topic": "Tema",
+  "templates.email.author": "Autor",
+  "templates.email.text": "Comentario",
+  "templates.email.link": "Ver Online",
+
+  "templates.welcome-email.subject": "¡Bienvenid@ a {config.organization.name}!",
+  "templates.welcome-email.body": "Por favor <a href=\"{VALIDATE}\">cliquea aquí</a> para validar tu dirección de correo electrónico.",
   "templates.welcome-email.ps": "P.D.: si no creaste una cuenta, por favor ignora este correo.",
 
   "templates.reset-password.subject": "Reestablecer contraseña",
-  "templates.reset-password.body": "Por favor <a href=\"RESET_PASSWORD_URL\">cliquea aquí</a> para reestablecer tu contraseña",
+  "templates.reset-password.body": "Por favor <a href=\"{RESET}\">cliquea aquí</a> para reestablecer tu contraseña",
   "templates.reset-password.ps": "P.D.: si no solicitaste reestablecer tu contraseña, por favor ignora este correo",
 
   "templates.comment-reply.subject": "Alguien respondió a tu argumento",

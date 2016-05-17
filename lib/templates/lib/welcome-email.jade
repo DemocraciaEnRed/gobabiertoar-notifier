@@ -1,4 +1,19 @@
-p #{t('templates.email.greeting')}
-p !{t('templates.welcome-email.body')}
-p #{t('templates.email.signature')}
-p #{t('templates.welcome-email.ps')}
+extends wrapper.jade
+
+block content
+
+  table(width='100%', cellpadding='0', cellspacing='0')
+    tr
+      td.content-block
+        p=t('templates.email.greeting',{USERNAME:USERNAME})
+        p!=t('templates.welcome-email.body',{VALIDATE:VALIDATE,config:config})
+        p.copy-block #{VALIDATE}
+    tr
+      td.content-block
+        a.btn-primary(href=VALIDATE)=t('templates.welcome-email.link')
+    tr
+      td.content-block
+        p!=t('templates.email.signature',{config:config})
+    tr
+      td.ps-block
+        p!=t('templates.welcome-email.ps',{SIGNIN:SIGNIN,config:config})

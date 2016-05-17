@@ -1,20 +1,29 @@
 {
-  "templates.email.greeting": "USER_NAME,",
-  "templates.email.signature": "L'équipe de DemocracyOS.",
+  "templates.email.greeting": "{USERNAME},",
+  "templates.email.signature": "— l'équipe de <a href=\"{config.organization.url}\">{config.organization.name}</a>",
 
-  "templates.welcome-email.subject": "Bienvenue sur DemocracyOS!",
-  "templates.welcome-email.body": "Pour valider votre adresse de email merci de cliquer <a href=\"VALIDATE_MAIL_URL\">sur ce lien</a>.",
-  "templates.welcome-email.ps": "Si vous n'avez pas creé un compte sur DemocracyOS, ignorez cet email.",
+  "templates.email.topic": "Débat",
+  "templates.email.author": "Auteur",
+  "templates.email.text": "Texte",
+  "templates.email.link": "Consulter en ligne",
 
-  "templates.reset-password.subject": "DemocracyOS - Rétablir mot de passe",
-  "templates.reset-password.body": "Pour rétablir votre mot de passe merci de cliquer <a href=\"RESET_PASSWORD_URL\">sur ce lien</a>.",
-  "templates.reset-password.ps": "Si vous n' avez pas demandé le rétablissement de votre mot de passe, merci d'ignorer cet email",
+  "templates.welcome-email.subject": "Bienvenue sur {config.organization.name}",
+  "templates.welcome-email.body": "Merci de vous être enregistré sur {config.organization.name}. Vous pouvez désormais vous identifier en cliquant <a href=\"{VALIDATE}\">sur ce lien</a> ou en le copiant dans votre navigateur",
+  "templates.welcome-email.ps": "Ce lien ne peut être utilisé pour s'identifier qu'une seule fois pour vos prochaines connexion utilisez l'adresse : {SIGNIN} . Si vous n'avez pas créé un compte sur {config.organization.name}, ignorez cet email.",
+  "templates.welcome-email.link": "Valider votre inscription",
 
-  "templates.comment-reply.subject": "Quelqu'un a répondu à vos arguments",
-  "templates.comment-reply.body": "Vous avez une nouvelle réponse sur votre argument",
-  "templates.comment-reply.body2": "Pour la consulter cliquez <a href=\"URL\">sur ce lien</a>",
+  "templates.reset-password.subject": "Rétablir votre mot de passe",
+  "templates.reset-password.body": "Pour rétablir votre mot de passe merci de cliquer <a href=\"{RESET}\">sur ce lien</a> ou de le copier dans votre navigateur :",
+  "templates.reset-password.ps": "Si vous n'avez pas demandé le rétablissement de votre mot de passe, merci d'ignorer cet email",
+  "templates.reset-password.link": "Rétablir votre mot de passe",
 
-  "templates.topic-published.subject": "La nouvelle loi publiée",
-  "templates.topic-published.body": "Une nouvelle loi a été publiée:",
-  "templates.topic-published.body2": "Pour la consulter cliquez <a href=\"URL\">sur ce lien</a>"
+  "templates.comment-reply.subject": "Quelqu'un a répondu à votre contribution",
+  "templates.comment-reply.body": "Un citoyen a publié une réponse à votre contribution",
+
+  "templates.topic-published.subject": "Nouveau débat sur {config.organization.name}",
+  "templates.topic-published.body": "Un nouveau débat est en ligne :",
+
+  "templates.comment-published.subject": "Nouvelle contribution sur {config.organization.name}",
+  "templates.comment-published.body": "Une nouvelle contribution est en ligne."
+
 }

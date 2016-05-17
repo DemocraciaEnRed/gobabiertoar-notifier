@@ -1,13 +1,13 @@
 {
-  "templates.email.greeting": "Здравствуйте, USER_NAME,",
+  "templates.email.greeting": "Здравствуйте, {USERNAME},",
   "templates.email.signature": "Администрация DemocracyOS.",
 
   "templates.welcome-email.subject": "Добро пожаловать!",
-  "templates.welcome-email.body": "Пожалуйста <a href=\"VALIDATE_MAIL_URL\"> нажмите сюда </a> чтобы подтвердить адрес Вашей электронной почты.",
+  "templates.welcome-email.body": "Пожалуйста <a href=\"{VALIDATE}\"> нажмите сюда </a> чтобы подтвердить адрес Вашей электронной почты.",
   "templates.welcome-email.ps": "PS: Если Вы не регистрировались, пожалуйста не обращайте внимания на это сообщение.",
 
   "templates.reset-password.subject": "Изменение пароля",
-  "templates.reset-password.body": "Пожалуйста <a href=\"RESET_PASSWORD_URL\"> нажмите сюда </a> чтобы изменить Ваш пароль",
+  "templates.reset-password.body": "Пожалуйста <a href=\"{RESET}\"> нажмите сюда </a> чтобы изменить Ваш пароль",
   "templates.reset-password.ps": "PS: если Вы не пытались изменить Ваш пароль, пожалуйста не обращайте внимания на это сообщение.",
 
   "templates.comment-reply.subject": "Кто-то ответил на Ваш аргумент",

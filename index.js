@@ -10,14 +10,25 @@ var defaultOpts = {
   mongoUrl: 'mongodb://localhost/DemocracyOS-dev',
   collection: 'notifierJobs',
   defaultLocale: 'en',
-  organizationName: 'noreply@democracyos.org',
-  organizationEmail: 'The DemocracyOS team',
+  organizationEmail: 'noreply@democracyos.org',
+  organizationName: 'The DemocracyOS team',
   mailer: {
     service: '',
     auth: {
       user: '',
       pass: ''
     }
+  },
+  organization: {
+    name: 'The DemocracyOS team',
+    url: 'http://democracyos.org',
+    email: 'noreply@democracyos.org',
+    logo: false
+  },
+  style: {
+    backgroundColor: '#64476e',
+    fontColor: '#fff',
+    contrast: false
   }
 }
 
