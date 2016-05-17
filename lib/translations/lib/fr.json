@@ -1,0 +1,20 @@
+{
+  "templates.email.greeting": "USER_NAME,",
+  "templates.email.signature": "L'équipe de DemocracyOS.",
+
+  "templates.welcome-email.subject": "Bienvenue sur DemocracyOS!",
+  "templates.welcome-email.body": "Pour valider votre adresse de email merci de cliquer <a href=\"VALIDATE_MAIL_URL\">sur ce lien</a>.",
+  "templates.welcome-email.ps": "Si vous n'avez pas creé un compte sur DemocracyOS, ignorez cet email.",
+
+  "templates.reset-password.subject": "DemocracyOS - Rétablir mot de passe",
+  "templates.reset-password.body": "Pour rétablir votre mot de passe merci de cliquer <a href=\"RESET_PASSWORD_URL\">sur ce lien</a>.",
+  "templates.reset-password.ps": "Si vous n' avez pas demandé le rétablissement de votre mot de passe, merci d'ignorer cet email",
+
+  "templates.comment-reply.subject": "Quelqu'un a répondu à vos arguments",
+  "templates.comment-reply.body": "Vous avez une nouvelle réponse sur votre argument",
+  "templates.comment-reply.body2": "Pour la consulter cliquez <a href=\"URL\">sur ce lien</a>",
+
+  "templates.topic-published.subject": "La nouvelle loi publiée",
+  "templates.topic-published.body": "Une nouvelle loi a été publiée:",
+  "templates.topic-published.body2": "Pour la consulter cliquez <a href=\"URL\">sur ce lien</a>"
+}
