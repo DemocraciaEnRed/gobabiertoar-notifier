@@ -17,6 +17,12 @@ var defaultOpts = {
     auth: {
       user: '',
       pass: ''
+    },
+    smtp: {
+      port: 0,
+      host: '',
+      secure: true,
+      tls: {}
     }
   },
   organization: {
