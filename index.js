@@ -22,7 +22,8 @@ var defaultOpts = {
       port: 0,
       host: '',
       secure: true,
-      tls: {}
+      tls: {},
+      authMethod: 'LOGIN'
     }
   },
   organization: {
