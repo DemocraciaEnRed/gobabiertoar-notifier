@@ -21,9 +21,9 @@ var defaultOpts = {
     smtp: {
       port: 0,
       host: '',
-      secure: true,
-      tls: {},
-      authMethod: 'LOGIN'
+      secure: false,
+      authMethod: 'LOGIN',
+      tls: {ciphers: 'SSLv3'}
     }
   },
   organization: {
