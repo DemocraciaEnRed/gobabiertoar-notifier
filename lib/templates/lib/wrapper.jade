@@ -4,7 +4,7 @@ html(xmlns='http://www.w3.org/1999/xhtml')
     meta(name='viewport', content='width=device-width')
     meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
     title #{title}
-    
+
   body(itemscope='', itemtype='http://schema.org/EmailMessage')
     table.body-wrap
       tr
@@ -16,15 +16,16 @@ html(xmlns='http://www.w3.org/1999/xhtml')
                 td.brand(style='background-color:#{config.style.backgroundColor};color:#{config.style.fontColor}')
                   table(width='100%', cellpadding='0', cellspacing='0')
                     tr
-                      td.brand-image(width='32')
-                        img(src='#{config.organization.logo}',width='28',height='28')
-                      td.brand-text 
-                        != config.organization.name.replace(/[.]/g,'<span>&#46;</span>')
+                      td.brand-image
+                        img(src='#{config.organization.logo}')
+                      //-
+                        td.brand-text
+                          != config.organization.name.replace(/[.]/g,'<span>&#46;</span>')
               tr
                 td.content-wrap
-                
+
                   block content
-                  
+
             .footer
               table(width='100%')
                 tr
