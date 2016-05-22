@@ -10,7 +10,7 @@ block content
         p.copy-block #{VALIDATE}
     tr
       td.content-block
-        a.btn-primary(href=VALIDATE)=t('templates.email.link')
+        a.btn-primary(href=VALIDATE)=t('templates.email.link', {config: config})
     tr
       td.content-block
         p!=t('templates.welcome-email.disclaimer')

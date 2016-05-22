@@ -9,7 +9,7 @@ block content
         p=t('templates.comment-reply.body')
     tr
       td.content-block
-        a.btn-primary(href=URL)=t('templates.email.link')
+        a.btn-primary(href=URL)=t('templates.email.link', {config: config})
     tr
       td.content-block
         p!=t('templates.email.signature',{config:config})

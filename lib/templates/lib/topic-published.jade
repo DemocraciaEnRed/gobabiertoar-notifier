@@ -13,4 +13,4 @@ block content
         h3 #{TOPIC}
     tr
       td.content-block
-        a.btn-primary(href=URL)=t('templates.email.link')
+        a.btn-primary(href=URL)=t('templates.email.link', {config: config})
