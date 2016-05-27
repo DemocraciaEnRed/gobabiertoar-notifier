@@ -5,7 +5,7 @@
   "templates.email.topic": "Tema",
   "templates.email.author": "Autor",
   "templates.email.text": "Comentario",
-  "templates.email.link": "Ver en {config.organization.name}",
+  "templates.email.link": "Confirmá tu cuenta",
 
   "templates.welcome-email.subject": "¡Bienvenid@ a Plataforma de Consulta Pública!",
   "templates.welcome-email.body": "Bienvenido/a a la Plataforma de Consulta Pública sobre los compromisos ante la Alianza de Gobierno Abierto.<br/>Aquí vas a poder votar y comentar iniciativas gubernamentales, difundirlas y buscar apoyo a tus comentarios.",
