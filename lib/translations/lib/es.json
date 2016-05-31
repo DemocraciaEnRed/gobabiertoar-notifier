@@ -20,11 +20,11 @@
 
   "templates.comment-reply.subject": "Alguien respondió a tu comentario",
   "templates.comment-reply.body": "Han respondido a un comentario que realizaste sobre <b>\"{TOPIC_TITLE}\"</b>",
-  "templates.comment-reply.body2": "Por favor <a href=\"URL\">cliquea aquí</a> para verla.",
+  "templates.comment-reply.body2": "Por favor <a href=\"{URL}\">cliquea aquí</a> para verla.",
 
   "templates.topic-published.subject": "Nuevo tema publicado",
   "templates.topic-published.body": "Un nuevo tema fue publicado:",
-  "templates.topic-published.body2": "Por favor <a href=\"URL\">cliquea aquí</a> para verlo.",
+  "templates.topic-published.body2": "Por favor <a href=\"{URL}\">cliquea aquí</a> para verlo.",
 
   "templates.comment-published.subject": "Nuevo Comentario en {config.organization.name}",
   "templates.comment-published.body": "Publicaron un nuevo comentario en un tema del cual participaste:"

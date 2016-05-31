@@ -6,10 +6,10 @@ block content
     tr
       td.content-block
         p=t('templates.email.greeting',{USERNAME:USERNAME})
-        p=t('templates.comment-reply.body')
+        p!=t('templates.comment-reply.body', {TOPIC_TITLE:TOPIC_TITLE})
     tr
       td.content-block
-        a.btn-primary(href=URL)=t('templates.email.link', {config: config})
+        p!=t('templates.comment-reply.body2', {URL:URL})
     tr
       td.content-block
-        p!=t('templates.email.signature',{config:config})
+        p=t('templates.email.signature',{config:config})
